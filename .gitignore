@@ -33,6 +33,7 @@ replay_pid*
 .vscode/*
 !.vscode/launch.json
 !.vscode/tasks.json
+.vscode/
 
 # OS-specific files
 .DS_Store
