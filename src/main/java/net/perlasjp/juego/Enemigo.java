@@ -6,3 +6,13 @@ public class Enemigo {
    private int fuerza;
 
 }
+ 
+public int atacar(){
+
+}
+public void recibirDanio(int danio){
+
+}
+public boolean estavivo(){
+
+}
