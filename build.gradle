@@ -18,3 +18,15 @@ dependencies {
 application {
     mainClass = 'net.perlasjp.juego.Main'
 }
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'net.perlasjp.juego.Main'
+        )
+    }
+
+}
+run {
+    standardInput = System.in
+}
