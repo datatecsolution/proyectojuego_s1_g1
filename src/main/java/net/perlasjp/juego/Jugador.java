@@ -11,6 +11,8 @@ public class Jugador {
 
     }
     public void recibirDanio(int danio){
+         salud = salud - cantidad;
+        if (salud < 0) salud = 0;
 
     }
     public boolean estaVivo(){
@@ -18,6 +20,9 @@ public class Jugador {
 
     }  
     public Jugador (String nombre){
+        this.nombre = nombre;
+        this.salud = 100;
+        this.fuerza = 10;
 
     }
     public String getNombre(){
@@ -29,6 +34,9 @@ public class Jugador {
 
     }
     public void mostrarEstado(){
+        System.out.println("Jugador: " + nombre);
+        System.out.println("Salud: " + salud);
+        System.out.println("Ataque: " + fuerza);
 
     }
 
